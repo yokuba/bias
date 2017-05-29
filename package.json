@@ -1,0 +1,28 @@
+{
+  "name": "bias",
+  "version": "1.0.0",
+  "description": "An application for measuring the bias in news media",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yokuba/bias.git"
+  },
+  "author": "A Mac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yokuba/bias/issues"
+  },
+  "homepage": "https://github.com/yokuba/bias#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
