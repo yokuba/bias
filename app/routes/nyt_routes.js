@@ -1,4 +1,6 @@
 var nytTop = require('nyt-top');
+const articleRoutes = require('./article_routes');
+
 require('dotenv').config()
 
 nytTop.key(process.env.NYT_KEY);
